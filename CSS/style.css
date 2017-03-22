@@ -313,6 +313,15 @@ footer p {
     padding: 0 30px;
   }
 
+  .banner {
+  background-attachment: scroll;
+  background-position: top;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  background-size: auto;
+}
+
+
   header p {
    text-shadow: 1px 1px 2px #ffffff;
   }
