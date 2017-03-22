@@ -12,14 +12,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="./images/logo.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/font-awesome.min.css">
+
     <title>Livia Santos</title>
   </head>
 
   <body>
-
     <nav>
-      <a class="my_logo" href="#"><img src="./images/logo.png"/></a>
+      <a class="my_logo" href="#"><img src="./images/logo.png" alt="my logo"/></a>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#work">Work</a>
@@ -40,9 +42,9 @@
     <section id="about" class="about">
       <div class="phrase">
         <h2>About</h2>
-        <img class="description_icon"src="./images/brazil-map.svg"/>
+        <img class="phrase_icon" src="./images/brazil-map.svg" alt="Brazil map"/>
         <h3>"I have Brazilian roots but my soul belongs to the world."</h3>
-        <p>por mim</p>
+        <p>By Me</p>
       </div>
       <p>A social worker by training and an eternal student. Learning how to "learn" has been the most important tool I'm using to pursue my careers goals. Testing, exams, and self-learning are always part of my path.</p>
       <p>Realizing that we are surrounded by technology, that it can make daily life easier, made me see that I wanted a career change. I want more than to just use applications, I want to interact, improve and create new ones.</p>
@@ -51,49 +53,52 @@
     </section>
   </div>
 
+  <div class="parallax_one">
+  </div>
 
   <div class="backgroundSkills">
     <section id="skills" class="skills">
       <br/>
-
       <div class="phrase">
-        <h2>Learning</h2>
-        <img class="description_icon" src="./images/learn_logos/violao.svg"/>
+        <h2>Skills</h2>
+        <img class="phrase_icon" src="./images/learn_logos/violao.svg" alt="Acoustic Guitar"/>
         <h3>"Learning is the only thing the mind never exausts, never fears, and never regrets"</h3>
         <p>by Leonardo da Vinci</p>
       </div>
 
-      <ul class="logos">
-        <li><img src="./images/learn_logos/html5-original-wordmark.svg"/>
+      <ul class="tech_logos">
+        <li><img src="./images/learn_logos/html5-original-wordmark.svg" alt="HTML5 logo"/>
         <p>HTML</p>
         </li>
-        <li><img src="./images/learn_logos/ruby-plain-wordmark.svg"/>
+        <li><img src="./images/learn_logos/ruby-plain-wordmark.svg" alt="Ruby logo"/>
           <p>RUBY</p>
         </li>
-        <li><img src="./images/learn_logos/css3-original-wordmark.svg"/>
+        <li><img src="./images/learn_logos/css3-original-wordmark.svg"alt="CSS3 logo"/>
           <p>CSS</p>
         </li>
-        <p>Waiting for more ...</p>
       </ul>
-
+      <p>Waiting for more ...</p>
 
       <div class="learning_resources">
         <h2>Learning resources:</h2>
           <ul class="schools">
-            <li><a href="https://www.coderfactoryacademy.edu.au/" target="_blank"><img class="make_round" src="./images/learn_logos/coderfactorylogo.png"/></a>
+            <li><a href="https://www.coderfactoryacademy.edu.au/" target="_blank"><img class="make_round" src="./images/learn_logos/coderfactorylogo.png" alt="Coder Factory logo"/></a>
             <p>Coder Factory</p>
             </li>
-            <li><a href="http://www.codenewbie.org/" target="_blank"><img class="make_round" src="./images/learn_logos/codenwebie.png"/></a>
+            <li><a href="https://www.codenewbie.org/" target="_blank"><img class="make_round" src="./images/learn_logos/codenwebie.png" alt="Code Newbie Logo"/></a>
               <p>Code Newbie</p>
             </li>
-            <li><a href="http://exercism.io/" target="_blank"><img class="make_round" src="./images/learn_logos/exercism.png"/></a>
+            <li><a href="https://exercism.io/" target="_blank"><img class="make_round" src="./images/learn_logos/exercism.png" alt="Exercism Logo"/></a>
               <p>Exercism</p>
             </li>
           </ul>
       </div>
 
-    </div>
-  </section>
+    </section>
+  </div>
+
+  <div class="parallax_two">
+  </div>
 
 
     <div class="backgrandWork">
@@ -103,48 +108,50 @@
           <h3>"I only achieve simplicity with enourmous effort."</h3>
           <p>by Clarice Lispector</p>
         </div>
-        <ul class="apps">
-          <li>
-            <h3>TIC TAC TOE</h3>
+        <ul class="appslist">
+          <li><h3>TIC TAC TOE</h3>
               <p>CLI game. Built in Ruby, among other things, help me to understand booleans and array indexes.</p>
-            <img src="./images/apps/visual_ttt.png"/>
-              <p><a href="https://github.com/Livia-Santos/tic_tac_toe" target="_blank">Check my code</a></p>
+              <img class="appsimg" src="./images/apps/visual_ttt.png"/ alt="Tic tac toe image">
+              <p><a href="https://github.com/Livia-Santos/tic_tac_toe" target="_blank"><p>View on GitHub</p></a>
           </li>
           <hr/>
-          <li>
-            <h3>ZODIAC SEARCHER</h3>
+          <li><h3>ZODIAC SEARCHER</h3>
               <p>CLI app built in Ruby. Gets the user birthday date and returns his Zodiac sign with a brief description.</p>
               <p>Help me to work with Ruby Dates.</p>
-              <p><img src="./images/apps/zodiac.png"/><p>
-              <p><a href="https://github.com/Livia-Santos/zodiac_searcher">Check my code</a></p>
+              <img class="appsimg" src="./images/apps/zodiac.png" alt="Zodiac Searcher image"/>
+              <a href="https://github.com/Livia-Santos/zodiac_searcher"><p>View on GitHub</p></a>
+          </li>
+          <hr/>
+          <li><h3>PORTFOLIO</h3>
+              <p>Website built using HTML and CSS. Introduce myself and showcase some of my skills.</p>
+              <img class="appsimg" src="./images/apps/site.png" alt="Portfolio webpage image"/>
+              <a href="https://github.com/Livia-Santos/liviasantos.github.io"><p>View on GitHub</p></a>
+          </li>
+
           </li>
         </ul>
       </section>
     </div>
 
       <footer>
-        <div class="backgroundContact">
           <div id="contact" class="contact">
-              <h2>Contact</h2>
-            <p>Currently living in Melbourne, Australia.</p>
-            <a href="mailto:liviamelq@gmail.com?subject=Portfolio_Contact"><img src="./images/email.svg"/></a>
-          </div>
-        </div>
+              <h2>Get in touch!</h2>
+            <p>Currently in Melbourne, Australia.</p>
 
-        <div class="bottom">
-            <h2>Follow me on:</h2>
-          <ul class="bottom_logos">
+            <ul class="contact_logos">
             <li>
-              <p><a href="https://github.com/Livia-Santos" target="_blank"><img src="./images/contact_logos/github-original.svg"/></a></p>
+              <a href="https://github.com/Livia-Santos" target="_blank"><i class="fa fa-github-alt"aria-hidden="true"></i></a>
             </li>
             <li>
-              <p><a href="https://twitter.com/Lica_san" target="_blank"><img src="./images/contact_logos/twitter2.svg"/></a></p>
+              <a href="https://twitter.com/Lica_san" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </li>
             <li>
-              <p><a href="https://www.linkedin.com/" target="_blank"><img src="./images/contact_logos/linkedin.png"/></a></p>
+              <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="mailto:liviamelq@gmail.com?subject=Portfolio_Contact"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
             </li>
           </ul>
-
         </div>
       </footer>
   </body>
