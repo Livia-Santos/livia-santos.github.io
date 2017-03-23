@@ -45,7 +45,7 @@ I decided to go for contrasting colors using purples and a navy-ish blue. That s
 
  #### *My Logo* ####
 
- ![picture alt](https://livia-santos.github.io/images/big logo.png)
+ ![picture alt](https://livia-santos.github.io/images/big_logo.png)
 
 **Color:** #400035
 
@@ -57,4 +57,4 @@ They are produced and sold in street markets and by street vendors in Brazil, pr
 ## Wireframes and Mockup experiences ##
 My first step building this project was drawing what I was imagining for my website, which turned into my first wireframe. I was focusing only on the desktop.
 
-![picture alt](https://livia-santos.github.io/images/1wireframe.jng)
+![picture alt](https://livia-santos.github.io/images/1wireframe.jpg)
