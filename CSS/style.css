@@ -344,8 +344,6 @@ footer p {
   .banner {
     background:url(../images/app_italy.jpeg) no-repeat fixed center center;
     background-size: cover;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
     height: 700px;
   }
 
@@ -379,7 +377,7 @@ footer p {
 
   .banner {
     margin-top: 35px;
-    /*background-attachment: scroll;*/
+    background-attachment: scroll;
     }
 
   }
