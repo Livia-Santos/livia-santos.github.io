@@ -93,8 +93,8 @@ Contact - Footer
 Navigation Bar:<br>
 Another element I used was a fixed navigation menu on the top. The fixed navigation allows the user to jump to another content at any point he wants.
 
-## Futures Improvements: ##
-This website was my first project built with HTML and CSS. I want to add more features once I have the power to that with javascript and others technologies.
+## Future Improvements: ##
+This website was my first project built with HTML and CSS. I want to add more features once I learn more javascript and others technologies.
 
 - Fix the parallax on mobile versions;
 - Improve Mobile interaction;
