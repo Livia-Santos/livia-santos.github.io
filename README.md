@@ -45,10 +45,9 @@ I decided to go for contrasting colors using purples and a navy-ish blue. That s
 
  #### *My Logo* ####
 
- ![picture alt](https://livia-santos.github.io/images/big_logo.png)
+ ![picture alt](https://livia-santos.github.io/images/logo.png)
 
-**Color:** #400035
-
+**Color:** #400035<br>
 **Font:** Booklet Cordel
 
 The font logo refers to Cordel literature, that is a popular and inexpensively printed booklet or pamphlets containing folk novels, poems, and songs.
@@ -58,3 +57,54 @@ They are produced and sold in street markets and by street vendors in Brazil, pr
 My first step building this project was drawing what I was imagining for my website, which turned into my first wireframe. I was focusing only on the desktop.
 
 ![picture alt](https://livia-santos.github.io/images/1wireframe.jpg)
+
+Along the course, I was introduced to Figma, that made me think about all the other devices that I needed to explore. That lead to my first mockup targeting a mobile device.
+
+The experience of doing the wireframes and mockups helped me a lot to organize my ideas and have a preview of my concept.
+
+It wasn't a linear process since a had to go back to change my wireframes and rethink my choices throughout the project.<br>
+After having my ideas organized I started to build my project in HTML and CSS.
+
+##  Website Plan and Sections: ##
+
+I decided to go for a single page website because I think it is easy to navigate from different devices.<br>
+I also wanted to use the visual effects of parallax and the single page website was a perfect fit for that.
+
+**Structure plans:**<br>
+My website content is divided into five main parts.
+The HTML syntax helped me to understand and structure the website.
+
+Banner - HTML Div
+* Main picture using transparency effects and parallax.
+
+About - HTML Section
+* A brief description about myself.
+
+Skills - HTML Section
+* A list of icons with the Languages and technologies I am learning.
+* List of my favorites learning resources with links.
+
+Work  - HTML
+* A list of Apps that I built, image and a link to their code on GitHub.
+
+Contact - Footer
+* Get in touch with me through email or follow me on social medias.
+
+Navigation Bar:<br>
+Another element I used was a fixed navigation menu on the top. The fixed navigation allows the user to jump to another content at any point he wants.
+
+## Futures Improvimentes: ##
+This website was my first project built with HTML and CSS. I want to add more features once I have the power to that with javascript and others technologies.
+
+- Fix the parallax on mobile versions;
+- Improve Mobile interaction;
+- Create a form for the desktop version;
+- ...
+
+## Tools I used: ##
+* Pen and paper
+* Trello Board
+* Figma
+* Paint 2
+* Preview
+* FontAwesome
