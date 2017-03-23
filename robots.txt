@@ -1,0 +1,4 @@
+User-agente: *
+Dissalow: /images/
+
+Sitemap: https://livia-santos.github.io/sitemap.xml
