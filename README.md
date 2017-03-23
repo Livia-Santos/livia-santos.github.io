@@ -44,6 +44,7 @@ I decided to go for contrasting colors using purples and a navy-ish blue. That s
   * Letter-spacing - 1px
 
  #### *My Logo* ####
+
  ![picture alt](https://livia-santos.github.io/images/big logo.png)
 
 **Color:** #400035
@@ -52,3 +53,8 @@ I decided to go for contrasting colors using purples and a navy-ish blue. That s
 
 The font logo refers to Cordel literature, that is a popular and inexpensively printed booklet or pamphlets containing folk novels, poems, and songs.
 They are produced and sold in street markets and by street vendors in Brazil, principally in the Northeast.
+
+## Wireframes and Mockup experiences ##
+My first step building this project was drawing what I was imagining for my website, which turned into my first wireframe. I was focusing only on the desktop.
+
+![picture alt](https://livia-santos.github.io/images/1wireframe.jng)
