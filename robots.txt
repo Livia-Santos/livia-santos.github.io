@@ -1,4 +1,5 @@
-User-agente: *
-Dissalow: /images/
+User-agent: *
+Disallow: /images
+Disallow: favicon.ico
 
 Sitemap: https://livia-santos.github.io/sitemap.xml
