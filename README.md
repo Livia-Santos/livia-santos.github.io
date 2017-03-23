@@ -21,8 +21,34 @@ http://www.pascalvangemert.nl/
 
 I like the way he used the first image with a parallax effect and the simplicity of colors made the website look very clean.
 
-#### *My design guideline:* ####
-<br>
+ #### *My design guideline:* ####
 I decided to go for contrasting colors using purples and a navy-ish blue. That shows a bit of my personality, romantic but also strong.
 
 ![picture alt](https://livia-santos.github.io/images/colors.png)
+
+ #### *Typography* #####
+**Font Type:**<br>
+'Droid Sans', sans-serif;
+
+**Font-Sizes**
+* Banner title:
+  * H1 - 36px
+  * p - 20px
+  * Letter-spacing - 20px
+
+
+* Body:
+  * H2 - 1.8rem
+  * H3 - 1.4rem
+  * p - 1.4rem
+  * Letter-spacing - 1px
+
+ #### *My Logo* ####
+ ![picture alt](https://livia-santos.github.io/images/big logo.png)
+
+**Color:** #400035
+
+**Font:** Booklet Cordel
+
+The font logo refers to Cordel literature, that is a popular and inexpensively printed booklet or pamphlets containing folk novels, poems, and songs.
+They are produced and sold in street markets and by street vendors in Brazil, principally in the Northeast.
