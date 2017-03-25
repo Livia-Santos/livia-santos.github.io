@@ -24,7 +24,7 @@ I like the way he used the first image with a parallax effect and the simplicity
  #### *My design guideline:* ####
 I decided to go for contrasting colors using purples and a navy-ish blue. That shows a bit of my personality, romantic but also strong.
 
-![picture alt](https://livia-santos.github.io/images/colors.png)
+![picture alt](https://livia-santos.github.io/images/colors_pallette.png)
 
  #### *Typography* #####
 **Font Type:**<br>
