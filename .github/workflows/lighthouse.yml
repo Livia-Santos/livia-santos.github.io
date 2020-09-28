@@ -20,7 +20,6 @@ jobs:
     - name: Handle Lighthouse Check results
       uses: foo-software/lighthouse-check-status-action@master
       with:
-        lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
         minAccessibilityScore: "90"
         minBestPracticesScore: "50"
         minPerformanceScore: "50"
