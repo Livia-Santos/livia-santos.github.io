@@ -1,0 +1,32 @@
+{
+  "name": "livia-santos.github.io",
+  "version": "1.0.0",
+  "description": "My goal with this project is to learn and understand the potential of HTML and CSS.",
+  "main": "index.js",
+  "keywords": [
+    "javascript",
+    "typescript"
+  ],
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Livia-Santos/livia-santos.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Livia-Santos/livia-santos.github.io/issues"
+  },
+  "homepage": "https://github.com/Livia-Santos/livia-santos.github.io"
+}
