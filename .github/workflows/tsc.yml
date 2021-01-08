@@ -1,3 +1,4 @@
+name: Typescript compiler
 on:
   push:
   pull_request:
