@@ -5,21 +5,21 @@ jobs:
   lighthouse-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - run: mkdir /tmp/artifacts
       - name: Run Lighthouse
-        uses: foo-software/lighthouse-check-action@master
+        uses: foo-software/lighthouse-check-action@main
         id: lighthouseCheck
         with:
           outputDirectory: /tmp/artifacts
           urls: "https://livia-santos.github.io/"
       - name: Upload artifacts
-        uses: actions/upload-artifact@master
+        uses: actions/upload-artifact@main
         with:
           name: Lighthouse reports
           path: /tmp/artifacts
       - name: Handle Lighthouse Check results
-        uses: foo-software/lighthouse-check-status-action@master
+        uses: foo-software/lighthouse-check-status-action@main
         with:
           lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
           minAccessibilityScore: "70"
