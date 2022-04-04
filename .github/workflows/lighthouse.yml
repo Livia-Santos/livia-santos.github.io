@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@main
       - run: mkdir /tmp/artifacts
       - name: Run Lighthouse
-        uses: foo-software/lighthouse-check-action@main
+        uses: foo-software/lighthouse-check-action@master
         id: lighthouseCheck
         with:
           outputDirectory: /tmp/artifacts
@@ -19,7 +19,7 @@ jobs:
           name: Lighthouse reports
           path: /tmp/artifacts
       - name: Handle Lighthouse Check results
-        uses: foo-software/lighthouse-check-status-action@main
+        uses: foo-software/lighthouse-check-status-action@master
         with:
           lighthouseCheckResults: ${{ steps.lighthouseCheck.outputs.lighthouseCheckResults }}
           minAccessibilityScore: "70"
