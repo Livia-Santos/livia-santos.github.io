@@ -1,0 +1,422 @@
+/* Reset style */
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  /* 4. Add accessible line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 6. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+:root {
+  --color-beige: #F7F4EE;
+  --color-blue-100: #89c2d9;
+  --color-blue-200: #a9d6e5;
+  --color-blue-300: #61A5C2;
+  --color-blue-400: #2C7DA0;
+  --color-white: #fff;
+  --color-grey-100: #cccc;
+  --color-grey-300: #545353;
+  --color-grey-500: #515151;
+
+}
+
+/* Start style */
+
+body {
+  background-color: var(--color-beige);
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: var(--color-grey-500);
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  color: var(--color-blue-400);
+  font-weight: bold;
+  border-bottom: 1px solid var(--color-blue-300);
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 22px 0px 22px 100px;
+}
+
+.my_logo img {
+  height: 35px;
+}
+
+.logo-name {
+  padding-left: 10px;
+}
+
+.nav-links a {
+  color: var(--color-blue-400);
+  padding-right: 30px;
+}
+
+nav a:visited {
+  text-decoration: line-through;
+}
+
+nav a:hover,
+nav a:active {
+  color: #1d3557;
+}
+
+.section-wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 100px;
+}
+
+/* Section one */
+
+.profile_picture {
+  max-width: 418px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  background-size: 190% auto;
+  background-image:
+    radial-gradient(circle at 10% 20%, var(--color-beige), transparent),
+    radial-gradient(circle at 80% 50%, var(--color-blue-100), transparent),
+    radial-gradient(circle at 30% 90%, var(--color-blue-200), transparent),
+    radial-gradient(circle at 60% 10%, var(--color-blue-300), transparent);
+}
+
+.about-copy {
+  padding: 0px 50px;
+}
+
+.about-copy h1 {
+  margin-bottom: 32px;
+  font-size: 40px;
+  color: var(--color-grey-300);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.about-copy p {
+  max-width: 750px;
+  margin-bottom: 12px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+/* Sectio two */
+
+.section-heading {
+  background-color: var(--color-blue-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-heading h2 {
+  color: var(--color-beige);
+  padding: 30px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-left: 12px;
+  font-size: 28px;
+}
+
+.heading-icon {
+  width: 70px;
+}
+
+.skills-list {
+  display: flex;
+  align-items: center;
+  word-break: normal;
+  justify-content: center;
+}
+
+.skills-list ul {
+  display: inline-flex;
+  flex-flow: wrap;
+  max-width: 900px;
+  justify-content: space-around;
+}
+
+.skills-list ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 23px;
+  margin-right: 80px;
+}
+
+li p {
+  overflow-wrap: normal;
+}
+
+.xLarge-logo img {
+  max-width: 190px;
+}
+
+.large-logo img {
+  max-width: 120px;
+}
+
+.small-logo img {
+  max-width: 80px;
+}
+
+/* Section three */
+
+.work-experience {
+  padding-right: 100px;
+}
+
+.work-experience-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.work-experience-list li {
+  background-color: var(--color-white);
+  max-width: 275px;
+  min-height: 332px;
+  margin-right: 18px;
+  margin-top: 18px;
+  display: inline-flex;
+}
+
+.experience-card-wrapper {
+  border: 1px solid var(--color-gray-100);
+  border-radius: 6px;
+}
+
+.work-experience-list li:hover {
+  box-shadow: 0px 25px 68px 6px var(--color-grey-100);
+  transform: translate(0, -10px);
+  transition: transform ease 300ms;
+  overflow: hidden;
+}
+
+.experience-card-wrapper img {
+  margin: 32px auto;
+}
+
+.experience-card-wrapper p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 18px 24px 18px;
+  text-align: center;
+}
+
+.work-experience-list--item a {
+  color: black
+}
+
+.work-experience-list--item a:hover {
+  color: var(--color-blue-400);
+}
+
+/* Footer */
+
+footer h3 {
+  color: var(--color-beige);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  padding-top: 36px;
+  text-align: center;
+}
+
+footer p {
+  color: var(--color-beige);
+  font-size: 26px;
+  text-align: center;
+  padding: 6px;
+}
+
+.footer-wrapper {
+  background-color: var(--color-blue-300);
+}
+
+.contact-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 36px;
+}
+
+.contact-logos li {
+  list-style-type: none;
+  max-width: 50%;
+  padding: 0 38px;
+}
+
+.contact-logos li a {
+  font-size: 2.5rem;
+  color: var(--color-beige);
+}
+
+.contact-logos li a:hover {
+  color: var(--color-blue-400);
+}
+
+/* Responsive tablet */
+@media (max-width:920px) {
+
+  nav {
+    font-size: 20px;
+  }
+
+  .profile_picture {
+    margin-bottom: 32px;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about-copy h1 {
+    font-size: 36px;
+  }
+
+  .about-copy p {
+    max-width: fit-content;
+    font-size: 22px;
+  }
+
+  .section-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+
+  /*Responsive Small*/
+  @media (max-width:680px) {
+    nav {
+      font-size: 18px;
+    }
+
+    .about-link {
+      display: none;
+    }
+
+    .logo {
+      padding: 22px 12px;
+    }
+
+    .logo-name {
+      display: none;
+    }
+
+    .nav-links a {
+      padding-right: 20px;
+    }
+
+    .profile_picture {
+      max-width: 318px;
+      padding-left: 12px;
+    }
+
+    .section-wrapper {
+      padding-left: 0;
+    }
+
+    .experience-card-wrapper {
+      max-width: 275px;
+    }
+  }
+
+
+}
