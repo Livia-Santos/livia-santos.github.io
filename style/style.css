@@ -423,6 +423,10 @@ footer p {
       padding-left: 0;
     }
 
+    .skills-list ul li {
+      margin-right: 25px;
+    }
+
     .experience-card-wrapper {
       max-width: 275px;
     }
