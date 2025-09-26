@@ -280,6 +280,7 @@ li p {
 
 .work-experience-list li {
   background-color: var(--color-white);
+  border-radius: 6px;
   max-width: 275px;
   min-height: 332px;
   margin-right: 18px;
@@ -289,7 +290,6 @@ li p {
 
 .experience-card-wrapper {
   border: 1px solid var(--color-gray-100);
-  border-radius: 6px;
 }
 
 .work-experience-list li:hover {
