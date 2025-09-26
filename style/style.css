@@ -107,6 +107,14 @@ a {
 
 
 nav {
+  overflow: hidden;
+  background-color: var(--color-beige);
+  position: fixed;
+  z-index: 10;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -161,6 +169,8 @@ nav a:active {
 .about {
   display: flex;
   align-items: center;
+  /* compensate nav fixed */
+  padding-top: 80px;
   background-size: 190% auto;
   background-image:
     radial-gradient(circle at 10% 20%, var(--color-beige), transparent),
