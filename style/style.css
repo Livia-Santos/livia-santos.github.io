@@ -362,6 +362,12 @@ footer p {
   color: var(--color-blue-400);
 }
 
+#skills,
+#experience,
+#contact {
+  scroll-margin-top: 80px;
+}
+
 /* Responsive tablet */
 @media (max-width:920px) {
 
