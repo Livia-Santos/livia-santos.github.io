@@ -236,7 +236,7 @@ nav a:active {
   display: inline-flex;
   flex-flow: wrap;
   max-width: 900px;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .skills-list ul li {
