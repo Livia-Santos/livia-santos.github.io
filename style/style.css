@@ -179,6 +179,10 @@ nav a:active {
     radial-gradient(circle at 60% 10%, var(--color-blue-300), transparent);
 }
 
+.section-wrapper.about {
+  min-height: 100vh;
+}
+
 .about-copy {
   padding: 0px 50px;
 }
